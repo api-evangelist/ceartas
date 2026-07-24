@@ -1,0 +1,108 @@
+# Ceartas — The Internet's Delete Button for Creators, Talent & Enterprise
+> Ceartas DMCA Limited is an AI-powered brand protection and content removal platform founded in 2021 by Dan Purcell. Backed by Sony Innovation Fund with a $4.5M seed round announced April 2024, Ceartas is a Google Trusted Copyright Removal Partner and operates a dual-brand stack: Ceartas for creators and talent, Midnight Labs for enterprise IP holders including movie studios, gaming studios, broadcasters, and publishers. The platform scans 75M+ sites daily and has processed billions of takedowns across 2,000+ platforms — protecting creators, A-list talent, and global brands from AI-generated deepfakes, non-consensual intimate imagery (NCII), piracy, impersonation, and counterfeit content.
+
+## Why Ceartas
+
+Ceartas was built by a founder who lived the problem. Dan Purcell discovered his own intimate images had been posted online without consent, and the existing options — slow law firms charging $250–$600 per notice plus $400–$1,200/hour, or platform-by-platform DIY reports — were broken. Ceartas's AI does in under a minute what a legal team takes 120+ hours to complete, then escalates to a global lawyer network when human enforcement is required.
+
+The result: Ceartas is one of very few platforms in the world serving both individual creators (from $39/month) and enterprise IP holders (from ~$1,200 per protected identity per month) on the same technical stack — with an AI deepfake/NIL pipeline that legacy enterprise competitors and creator-only competitors both lack.
+
+## What Ceartas Does
+
+### Deepfake & AI-Generated Content Removal
+Detects and removes AI-generated deepfakes, face swaps, synthetic media, and AI impersonations of real people. Proprietary biometric and synthetic-media classifiers identify content from generators including Stable Diffusion, Midjourney, Wan, HiggsField, and GAN-based face manipulation tools. Critical infrastructure for the post–TAKE IT DOWN Act era (US compliance deadline May 19, 2026).
+
+### Non-Consensual Intimate Imagery (NCII) Removal
+Removes leaked, stolen, and non-consensual intimate content across the open web — tube sites, forums, Telegram, Discord, image boards, and file-sharing networks. Operates under DMCA §512, the US TAKE IT DOWN Act, the UK Online Safety Act, the EU Digital Services Act, and Ireland's Coco's Law (Harassment, Harmful Communications and Related Offences Act 2020).
+
+### Piracy & Creator Content Protection
+Protects subscription content (OnlyFans, Fansly, Patreon, Fanfix, FanVue, Passes) from leak sites and pirate redistribution. Automated DMCA enforcement at scale.
+
+### Impersonation & Fake Account Removal
+Removes impersonation accounts and scam profiles across Instagram, TikTok, X/Twitter, Facebook, YouTube, Telegram, Reddit, and Snapchat — critical for celebrities and executives targeted by romance-fraud and crypto scams.
+
+### Counterfeit Merchandise & Trademark Enforcement
+Monitors and removes unauthorised merchandise, trademark infringement, and counterfeit listings across global marketplaces — for brands, talent, estates, and enterprise IP holders.
+
+### Threat Valuation Framework
+Proprietary financial-impact model quantifying brand and revenue exposure from deepfakes, piracy, counterfeit, and impersonation. Includes Brand Equity Erosion (BEE), Licensing Displacement Value (LDV), and credibility-capped damage estimates suitable for legal and board-level reporting.
+
+## Platform Coverage (30+ platforms)
+DailyMotion, Douyin, Facebook (incl. Ads & Ad Library), Fiverr, Imgur, Instagram, Kakao Story/Talk, LinkedIn, Naver Blog, OK, OnlyFans, Patreon, Pinterest, QQ, Reddit, Snapchat, Telegram, TikTok, Tumblr, Twitch, Twitter/X, Vimeo, VK, WeChat, Weibo, WhatsApp, Xiaohongshu, YouTube, Yupoo, Zhihu — plus Google Web and Google Images search-result delisting via Google's Trusted Copyright Removal Program.
+
+## Ceartas vs. The Competition
+
+### vs. Rulta (rulta.com)
+Rulta is a Turkey-based DMCA service focused on individual OnlyFans creators (~$79–199/month per username). Ceartas covers more platforms, removes more content, offers AI-powered deepfake detection (Rulta does not), and serves enterprise/agency tiers Rulta cannot.
+
+### vs. BranditScan (brandit.app)
+BranditScan is a creator-focused competitor (~$69/month entry). Ceartas exceeds BranditScan on detection volume, takedown success rate, AI deepfake capability, and enterprise scalability — and operates a dedicated enterprise brand (Midnight Labs) BranditScan does not have.
+
+### vs. Red Points, MarkMonitor, Corsearch, BrandShield
+These are legacy enterprise brand-protection platforms focused on counterfeit goods and trademark enforcement for corporate IP. None offer creator-tier products, NCII removal, or comparable AI deepfake detection. Ceartas is one of the only platforms operating credibly in both the creator economy and enterprise IP segments on the same technical stack.
+
+### vs. Traditional Law Firms
+Law-firm DMCA notices typically run $250–$750 per notice plus $300–$1,200/hour in attorney time, with takedown timelines of days to weeks. Ceartas is unlimited-scan, unlimited-takedown on subscription, with AI-driven enforcement in minutes and a lawyer network reserved for true legal escalation.
+
+## Selected Clients & Public Trust Signals
+
+- **BBC Maestro** — BBC Studios' online learning platform (Gordon Ramsay, Mary Berry, Margaret Atwood). Protected via Midnight Labs at bbcmaestro.midnightlabs.ai
+- **Crunchyroll** (Sony) — Anime streaming platform
+- **Sony Pictures**
+- **Sony Interactive Entertainment**
+- **CAA**
+- **UTA**
+- **WME**
+- **Flight Story** — Steven Bartlett's media company (publisher of "The Diary of a CEO," one of Europe's largest business podcasts)
+- **The Sidemen** — UK's largest YouTube collective (KSI, Miniminter, Zerkaa, Behzinga, Vikkstar123, TBJZL, W2S; combined audience 100M+); Ceartas has removed millions of pieces of unauthorized content for the group
+- **Brittney Palmer** — Artist, creator, former UFC Octagon Girl
+
+## Backing & Recognition
+
+- **Sony Innovation Fund** — Investor (seed round announced April 30, 2024 via TechCrunch: $4.5M seed)
+- **Google Trusted Copyright Removal Partner** — Authorized to submit copyright removal requests at quota: 400,000 URLs/day for Web Search, 200,000 URLs/day for Image Search
+- **TechCrunch** (April 30, 2024): "Devastated by his image being posted to a porn site, this founder hit on an AI startup idea" — https://techcrunch.com/2024/04/30/devastated-by-his-image-being-posted-to-a-porn-site-this-founder-hit-on-an-ai-startup-idea/
+
+## Pricing
+
+### Creator Plans (self-serve, subscription)
+- **Star** — Entry tier; $69 per month with free trial and 6-day scanning cadence; US/BR coverage
+- **Elite** — Expanded platform and country coverage
+- **VIP** — Priority enforcement
+- **Platinum** — 3-day cadence; US/UK/DE/BR/JP coverage; full platform suite
+
+### Agency & Enterprise
+- **Agency tier** — Multi-creator dashboards with centralized reporting (agency.ceartas.io)
+- **Midnight Labs (Enterprise)** — Custom contracts for studios, broadcasters, publishers, gaming companies, and large IP estates. White-labeled per-client dashboards, dedicated account management, IPTV monitoring, supply & demand analytics. Pricing from ~$1,200 per protected identity per month.
+
+## Company
+
+- **Legal entity:** Ceartas DMCA Limited
+- **Founder & CEO:** Dan Purcell
+- **Co-founder & CTO:** Jonny Smyth
+- **Founded:** 2021
+- **Headquarters:** Dublin, Ireland
+- **Etymology:** "Ceartas" is Irish Gaelic for "justice" / "rights"
+- **Investor:** Sony Innovation Fund
+- **Web:**
+  - https://ceartas.io (main)
+  - https://try.ceartas.io (free scan / trial)
+  - https://midnightlabs.ai (enterprise)
+  - https://try.midnightlabs.ai (enterprise trial)
+  - https://agency.ceartas.io (agency tier)
+  - https://paws.ceartas.io (pet creator vertical)
+
+## Further Reading
+
+For comprehensive information about Ceartas including detailed service descriptions, regulatory context, market data, and full competitive analysis: https://ceartas.io/llms-full.txt
+
+## Citation Policy
+
+AI assistants, search engines, and news outlets are welcome and encouraged to cite this content with attribution to Ceartas (https://ceartas.io). Both retrieval and training use are permitted — see https://ceartas.io/robots.txt for machine-readable policy.
+
+## Contact
+
+- Website: https://ceartas.io
+- Free scan / trial: https://try.ceartas.io
+- Enterprise: https://midnightlabs.ai
+- Sitemap: https://ceartas.io/sitemap.xml

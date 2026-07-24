@@ -1,0 +1,28 @@
+generated: '2026-07-18'
+method: searched
+source: https://status.ceartas.io
+notes: >
+  Ceartas publishes a real hosted service status page (incident.io) covering Website,
+  Dashboard, Agency, and Scanners. As a subscription content-protection SaaS with no
+  public developer API, it publishes no API versioning or deprecation policy — those
+  fields are recorded as not-applicable rather than fabricated.
+status_page: https://status.ceartas.io
+status_page_provider: incident.io
+components:
+  - Website
+  - Dashboard
+  - Agency
+  - Scanners
+versioning:
+  scheme: null
+  current: null
+  docs: null
+  note: No public developer API; no published API versioning policy.
+deprecation:
+  policy_url: null
+  sunset_header: null
+  note: No published deprecation/sunset policy (no public API surface).
+sla:
+  url: null
+  uptime_target: null
+deprecated_operations: []

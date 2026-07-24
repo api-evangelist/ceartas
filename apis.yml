@@ -1,22 +1,105 @@
 aid: ceartas
 name: Ceartas
-description: Ceartas is a company surfaced as a portfolio company of earlybird and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+kind: company
+accessModel:
+  pricing: paid
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Paid
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/QGzJI9BVQrgIvEwKGLPIHoVAsE.png
+description: >-
+  Ceartas (legal entity Ceartas DMCA Limited) is a Dublin, Ireland AI-powered brand
+  protection and content-removal platform founded in 2021 by Dan Purcell (CEO) and Jonny
+  Smyth (CTO). Backed by the Sony Innovation Fund with a $4.5M seed round announced in
+  April 2024, Ceartas is a Google Trusted Copyright Removal Partner and runs a dual-brand
+  stack: Ceartas for individual creators and talent, and Midnight Labs for enterprise IP
+  holders including movie studios, gaming studios, broadcasters, and publishers. The
+  platform scans 75M+ sites daily across 2,000+ platforms and has processed billions of
+  takedowns, protecting creators, A-list talent, and global brands from AI-generated
+  deepfakes, non-consensual intimate imagery (NCII), piracy, impersonation, and
+  counterfeit content. Enforcement operates under DMCA §512, the US TAKE IT DOWN Act, the
+  UK Online Safety Act, the EU Digital Services Act, and Ireland's Coco's Law. Ceartas is
+  a subscription SaaS with a customer dashboard and no public developer API; this profile
+  captures its published identity, pricing, status, and security/AI-consent surface.
 url: https://raw.githubusercontent.com/api-evangelist/ceartas/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - earlybird
-x-tier: stub
-x-tier-reason: portfolio-lead
+- sony-innovation-fund
+x-tier: profiled
+x-tier-reason: enriched-from-public-surface
+x-note: >-
+  Subscription content-protection SaaS with a customer dashboard (dashboard.ceartas.io)
+  but no public developer API; no OpenAPI/SDK/OAuth surface exists to harvest, so
+  spec-derived artifacts (openapi, scopes, errors, MCP, agentic-access, skills) are
+  not-applicable rather than fabricated.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Content Protection
+- Brand Protection
+- DMCA
+- Anti-Piracy
+- Deepfake Removal
+- Creator Economy
+- Trust and Safety
+- Ireland
+- Artificial Intelligence
 apis: []
+common:
+- type: Website
+  url: https://ceartas.io
+- type: Pricing
+  url: https://ceartas.io/pricing
+- type: Plans
+  url: plans/ceartas-plans-pricing.yml
+- type: SignUp
+  url: https://dashboard.ceartas.io/sign-up
+- type: Login
+  url: https://dashboard.ceartas.io/login
+- type: Blog
+  url: https://ceartas.io/blog
+- type: Support
+  url: https://ceartas.io/contact
+- type: About
+  url: https://ceartas.io/about
+- type: TermsOfService
+  url: https://ceartas.io/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://ceartas.io/legal/privacy-policy
+- type: StatusPage
+  url: https://status.ceartas.io
+- type: Lifecycle
+  url: lifecycle/ceartas-lifecycle.yml
+- type: WellKnown
+  url: well-known/ceartas-well-known.yml
+- type: SecurityTxt
+  url: well-known/ceartas-security.txt
+- type: Security
+  url: https://ceartas.io/.well-known/security.txt
+- type: VulnerabilityDisclosure
+  url: security/ceartas-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/ceartas-domain-security.yml
+- type: LLMsTxt
+  url: llms/ceartas-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

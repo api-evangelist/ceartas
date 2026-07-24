@@ -1,0 +1,173 @@
+specification: API Commons Plans
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/Plans
+provider: Ceartas
+providerId: ceartas
+created: '2026-07-18'
+modified: '2026-07-18'
+generated: '2026-07-18'
+method: searched
+reconciled: true
+tags:
+  - Content Protection
+  - Brand Protection
+  - DMCA
+  - Deepfake Removal
+  - Creator Economy
+description: >
+  Reconciled subscription pricing for Ceartas, the AI-powered brand protection and
+  content-removal platform. Four self-serve creator tiers (Star, Elite, VIP, Platinum)
+  are published at https://ceartas.io/pricing with promotional first-month pricing and a
+  standard recurring monthly rate; an Agency tier (agency.ceartas.io) and the Midnight
+  Labs enterprise brand carry custom, sales-led contracts. Ceartas is a subscription
+  SaaS with no public developer API, so pricing is per protected identity / creator
+  seat rather than per API call.
+sources:
+  - https://ceartas.io/pricing
+  - https://www.ceartas.io/llms.txt
+plans:
+  - id: ceartas-star
+    name: Star
+    type: subscription
+    description: >
+      Entry tier for rising creators. Basic AI scanning on a ~6-day cadence, unlimited
+      Google search-result removals, and 300 manual takedowns. US/BR coverage.
+    entries:
+      - label: Monthly subscription (recurring)
+        name: star_monthly
+        type: recurring
+        metric: month
+        limit: 1
+        timeFrame: month
+        geo: global
+        unit: 1
+        price: '69'
+        userMultiplied: false
+      - label: Promotional first month
+        name: star_first_month
+        type: recurring
+        metric: month
+        limit: 1
+        timeFrame: month
+        geo: global
+        unit: 1
+        price: '34.50'
+        userMultiplied: false
+  - id: ceartas-elite
+    name: Elite
+    type: subscription
+    description: >
+      For established creators. AI-powered scanning, social-platform removals, and
+      unlimited manual takedowns with expanded platform and country coverage.
+    entries:
+      - label: Monthly subscription (recurring)
+        name: elite_monthly
+        type: recurring
+        metric: month
+        limit: 1
+        timeFrame: month
+        geo: global
+        unit: 1
+        price: '169'
+        userMultiplied: false
+      - label: Promotional first month
+        name: elite_first_month
+        type: recurring
+        metric: month
+        limit: 1
+        timeFrame: month
+        geo: global
+        unit: 1
+        price: '84.50'
+        userMultiplied: false
+  - id: ceartas-vip
+    name: VIP
+    type: subscription
+    description: >
+      For top creators. Daily AI scans, deepfake removals, priority enforcement, and a
+      dedicated account manager.
+    entries:
+      - label: Monthly subscription (recurring)
+        name: vip_monthly
+        type: recurring
+        metric: month
+        limit: 1
+        timeFrame: month
+        geo: global
+        unit: 1
+        price: '349'
+        userMultiplied: false
+      - label: Promotional first month
+        name: vip_first_month
+        type: recurring
+        metric: month
+        limit: 1
+        timeFrame: month
+        geo: global
+        unit: 1
+        price: '174.50'
+        userMultiplied: false
+  - id: ceartas-platinum
+    name: Platinum
+    type: subscription
+    description: >
+      For celebrities and A-list talent. Dedicated enforcement team, legal support from
+      IP lawyers, daily takedowns on a ~3-day cadence, and full platform suite across
+      US/UK/DE/BR/JP.
+    entries:
+      - label: Monthly subscription (recurring)
+        name: platinum_monthly
+        type: recurring
+        metric: month
+        limit: 1
+        timeFrame: month
+        geo: global
+        unit: 1
+        price: '1200'
+        userMultiplied: false
+      - label: Promotional first month
+        name: platinum_first_month
+        type: recurring
+        metric: month
+        limit: 1
+        timeFrame: month
+        geo: global
+        unit: 1
+        price: '600'
+        userMultiplied: false
+  - id: ceartas-agency
+    name: Agency
+    type: custom
+    description: >
+      Multi-creator agency tier with centralized dashboards and reporting at
+      agency.ceartas.io. Custom, sales-led pricing.
+    entries:
+      - label: Custom agency contract
+        name: agency_custom
+        type: custom
+        metric: contract
+        limit: -1
+        timeFrame: custom
+        geo: global
+        unit: 1
+        price: null
+        userMultiplied: false
+  - id: ceartas-midnight-labs-enterprise
+    name: Midnight Labs (Enterprise)
+    type: custom
+    description: >
+      Enterprise brand for studios, broadcasters, publishers, gaming companies, and large
+      IP estates. White-labeled per-client dashboards, dedicated account management, IPTV
+      monitoring, and supply/demand analytics. Custom contracts from approximately $1,200
+      per protected identity per month.
+    entries:
+      - label: Per protected identity (from)
+        name: enterprise_per_identity
+        type: recurring
+        metric: protected-identity-month
+        limit: -1
+        timeFrame: month
+        geo: global
+        unit: 1
+        price: '1200'
+        userMultiplied: true

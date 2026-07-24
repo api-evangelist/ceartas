@@ -1,0 +1,6 @@
+# Ceartas security contact
+# https://securitytxt.org/
+Contact: mailto:support@ceartas.io
+Expires: 2027-04-22T00:00:00Z
+Preferred-Languages: en
+Canonical: https://ceartas.io/.well-known/security.txt

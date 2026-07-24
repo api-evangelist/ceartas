@@ -1,0 +1,29 @@
+generated: '2026-07-18'
+method: searched
+source: https://ceartas.io/.well-known/
+host: https://ceartas.io
+notes: >
+  Ceartas is a subscription content-protection SaaS with no public developer API, so the
+  OAuth/OIDC discovery documents are absent (404). It does publish a valid RFC 9116
+  security.txt and a machine-readable AI-consent policy (Content-Signal in robots.txt,
+  per contentsignals.org: search=yes, ai-input=yes, ai-train=yes) plus an llms.txt.
+documents:
+  - path: /.well-known/security.txt
+    status: 200
+    file: ceartas-security.txt
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+related:
+  - path: /llms.txt
+    status: 200
+    file: ../llms/ceartas-llms.txt
+    note: LLM-facing site summary (see type LLMsTxt)
+  - path: /robots.txt
+    status: 200
+    note: "Content-Signal (contentsignals.org): search=yes, ai-input=yes, ai-train=yes"
