@@ -41,7 +41,7 @@ x-note: >-
   but no public developer API; no OpenAPI/SDK/OAuth surface exists to harvest, so
   spec-derived artifacts (openapi, scopes, errors, MCP, agentic-access, skills) are
   not-applicable rather than fabricated.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
