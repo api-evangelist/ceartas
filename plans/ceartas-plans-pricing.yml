@@ -171,3 +171,61 @@ plans:
         unit: 1
         price: '1200'
         userMultiplied: true
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - negotiated
+  - subscription
+  units:
+  - negotiated
+  - period
+  plans:
+  - name: Star
+    access: other
+    model: subscription
+    model_how: stated
+    units:
+    - period
+    periods:
+    - month
+  - name: Elite
+    access: other
+    model: subscription
+    model_how: stated
+    units:
+    - period
+    periods:
+    - month
+  - name: VIP
+    access: other
+    model: subscription
+    model_how: stated
+    units:
+    - period
+    periods:
+    - month
+  - name: Platinum
+    access: other
+    model: subscription
+    model_how: stated
+    units:
+    - period
+    periods:
+    - month
+  - name: Agency
+    access: negotiated
+    model: negotiated
+    model_how: stated
+    units:
+    - negotiated
+    periods:
+    - term
+  - name: Midnight Labs (Enterprise)
+    access: negotiated
+    model: negotiated
+    model_how: stated
+    units:
+    - other
+    periods:
+    - month
